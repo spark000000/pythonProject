@@ -10,6 +10,7 @@ def print_hi(name):
     print(f'2nd commit')  # Press Ctrl+F8 to toggle the breakpoint.
     print(f'3rd commit')  # Press Ctrl+F8 to toggle the breakpoint.
     print(f'1st develop branch')  # Press Ctrl+F8 to toggle the breakpoint.
+    print(f'2nd develop branch')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
 # Press the green button in the gutter to run the script.
