@@ -1,22 +1,15 @@
-# This is a sample Python script.
+import tkinter as tk
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+window = tk.Tk()
+window.title("Hello World")
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-    print(f'2nd commit')  # Press Ctrl+F8 to toggle the breakpoint.
-    print(f'3rd commit')  # Press Ctrl+F8 to toggle the breakpoint.
-    print(f'1st develop branch')  # Press Ctrl+F8 to toggle the breakpoint.
-    print(f'2nd develop branch')  # Press Ctrl+F8 to toggle the breakpoint.
-    print(f'3rd develop branch')  # Press Ctrl+F8 to toggle the breakpoint.
-    print(f'4th develop branch')  # Press Ctrl+F8 to toggle the breakpoint.
+def handle_button_press(event):
+    window.destroy()
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+button = tk.Button(text="My simple app.")
+button.bind("", handle_button_press)
+button.pack()fdsfsdfsdfdsf
+fsdds
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
